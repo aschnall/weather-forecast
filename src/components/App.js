@@ -19,7 +19,7 @@ class App extends React.Component {
 				<div className="city">
 					{city.name && city.country ? `${city.name}, ${city.country}`: ''}
 				</div>
-        <WeatherList weather={weather} />
+        		<WeatherList weather={weather} />
 			</div>
 		);
 	}

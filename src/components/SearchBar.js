@@ -19,11 +19,11 @@ class SearchBar extends React.Component {
 					<div className="field">
 						<label htmlFor="location">Enter Location</label>
 						<input 
-							type="text" 
-							placeholder="Enter Location"
-							id="location" 
-							onChange={(e) => this.props.onInputChange(e.target.value)}
-							value={this.props.term}
+						type="text" 
+						placeholder="Enter Location"
+						id="location" 
+						onChange={(e) => this.props.onInputChange(e.target.value)}
+						value={this.props.term}
 						/>
 					</div>
 				</form>
